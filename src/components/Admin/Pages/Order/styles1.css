@@ -1,0 +1,40 @@
+/* styles.css */
+
+.admin-create {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .centered-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .table-cell {
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .custom-select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed for your specific layout and design. */
+  

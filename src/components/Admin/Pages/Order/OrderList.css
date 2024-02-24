@@ -1,0 +1,34 @@
+.button {
+    padding: 10px 20px; /* Adjust the button size as needed */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .button.active {
+    background-color: #3498db; /* Change the color for the active button */
+    color: white; /* Change text color for active button */
+  }
+  
+  /* Define specific styles for each button if needed */
+  .button.all {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .button.canceled {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .button.pending {
+    background-color: #f1c40f;
+    color: #333; /* Change text color */
+  }
+  
+  .button.inTransit {
+    background-color: #27ae60;
+    color: white;
+  }
+  

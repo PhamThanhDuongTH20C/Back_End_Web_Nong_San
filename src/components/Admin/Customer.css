@@ -1,0 +1,421 @@
+.admin-product .add-product{
+  display: flex;
+}
+.admin-product .add-product span{
+  font-size: 35px;
+}
+.admin-product .add-product span:hover{
+  color: #1890ff;
+  transition: .3s;
+}
+.admin-product-link{
+  display: flex;
+}
+.admin-product span{
+  display: flex;
+  padding: .5rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b6b6b;
+}
+.admin-product-list{
+  background: white;
+  margin: 0 .5rem 0 1rem;
+  color: #6b6b6b;
+  padding: 1rem;
+
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.admin-product-list table{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* .admin-product-list table th{
+  color: #6b6b6b;
+  font-size: 18px;
+  font-weight: 600;
+  background: #f9f9f9;
+  padding: .5rem 0;
+  min-width: 30px;
+  text-align:center;
+} */
+.admin-product-list table td{
+  padding: .3rem;
+  font-size: 16px;
+  position: relative;
+}
+.admin-product-list table td a{
+  position: relative;
+  display: inline-block;
+}
+.admin-product-list table td img{
+  width: 70px;
+}
+
+.admin-product-list tr .delete-product, .admin-product-list tr .update-product, .review-product{
+  /* height: 30px;
+  width: 30px; */
+  /* border-radius: 50%; */
+  cursor: pointer;
+  padding: 0;
+}
+.admin-product-list tr .delete-product span, .admin-product-list tr .update-product span{
+  border-radius: 50%;
+}
+.admin-product-list tr .delete-product:hover span{
+  background: rgb(223, 28, 28);
+  transition: .3s;
+}
+.admin-product-list tr .update-product:hover span{
+  background: #1890ff;
+  transition: .3s;
+}
+.admin-product-list tr .delete-product:hover span, .admin-product-list tr .update-product:hover span{
+  color: white;
+}
+.admin-product-list tr:nth-of-type(even) {
+  background-color: #e5e6e7;
+}
+.admin-product-list .pagination{
+  padding: 1rem 0;
+}
+.admin-product-list .pagination span{
+  display: block;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 0;
+}
+
+
+/* ----- create product */
+
+.admin-create > span{
+  display: flex;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b6b6b;
+}
+/* .admin-create-product{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 0rem .5rem 1rem 1rem;
+  padding: 1rem;
+} */
+.admin-create-product {
+  display: table;
+  border-collapse: inherit;
+  background: white;
+  margin: 0rem .5rem 1rem 1rem;
+  padding: 1rem;
+  width: 90%;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 5px;
+}
+
+.table-cell textarea{
+  width: 100%;
+  padding: 5px;
+  font-size: small;
+}
+
+.admin-create-product input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-create-product button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-create-product button2 {
+  padding: 8px 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-create-product button2:hover {
+  background-color: #45a049;
+}
+
+.admin-create-product button:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 16px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 16px;
+}
+
+.admin-create-product input, select{
+  margin-bottom: 1rem;
+  /* padding: .5rem; */
+  font-size: 13px;
+}
+.select-type{
+  margin-bottom: 1rem;
+}
+.admin-create-product button{
+  background: white;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  padding: .7rem 5rem;
+  border: 1px solid #333;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.admin-create-product button:hover{
+  background: #1890ff;
+  color: white;
+  border: none;
+  transition: .3s;
+}
+.admin-create-product .filter-menu-firm{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  margin-bottom: 1rem;
+}
+.status .status-check{
+  margin-bottom: 0;
+}
+.status-center{
+  display: flex;
+  justify-content: center;
+}
+/*  phần footer table  */
+.table-footer {
+  vertical-align: top;
+  border-top: 1px solid #23282c;
+  display: flex;
+  margin: 0 0.5rem 0 1rem;
+  color: #6b6b6b;
+  padding: 1rem;
+  background: white;
+  
+}
+
+/* .table-footer input,
+.table-footer button {
+  padding: 5px 10px;
+  border: 3px solid transparent;
+  background-color: #cccece;
+  width: 200px;
+} */
+.table-footer select {
+  width: 190px;
+  /* margin-bottom: 0; */
+  margin-right: 5px;
+}
+/* .review-product{
+  display: flex;
+} */
+
+/* Phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #888;
+  color: #fff;
+}
+
+.timTheoNgay {
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 2px solid #777;
+}
+.timTheoNgay input {
+  margin: 0 3px;
+  padding: 2px;
+}
+.table-footer button {
+    cursor: pointer;
+    background-color: #23282c;
+    color: #e4e7ea;
+    transition-duration: .2s;
+}
+
+.table-footer .btn-search{
+  display: inline-block;
+  padding: 0;
+  font-size: small;
+}
+.admin-create h3{
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.btn--color{
+  background-color: #45a049;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.btn--color:hover{
+  background-color: rgb(238, 77, 45);
+  color: #ffffff;
+}
+.input-table {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #1250DC;
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  outline: none;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px; /* Adjust the padding to make the button smaller */
+  background-color: #007bff; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 10px; /* Adjust the font size to make it smaller */
+}
+
+.custom-file-upload span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px; /* Adjust the spacing between the icon and text to make it smaller */
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3; /* Change the hover background color as needed */
+}
+/* CSS */
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  background-color: #0074cc; /* Màu nền của nút tìm kiếm */
+  color: #fff; /* Màu chữ trên nút tìm kiếm */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px; /* Khoảng cách giữa trường tìm kiếm và nút tìm kiếm */
+}
+
+/* Hover state - thay đổi kiểu dáng khi di chuột qua */
+.search-button:hover {
+  background-color: #00529b; /* Màu nền thay đổi khi di chuột qua */
+}
+.input-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+/* Trong một file CSS hoặc tại phần styles của component */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.table tfoot {
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
